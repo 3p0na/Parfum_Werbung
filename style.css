@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url("./images/image-product-desktop.jpg");
+
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+}
+
+.content {
+    padding-left: 330px;
+    padding-right: 30px;
+    padding-top: 18px;
+    
+}
+
+h1 {
+    font-family: Fraunces, sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 1;
+    
+}
+
+.text {
+    font-family: Montserrat, sans-serif ;
+    font-size: 14px;
+    color: gray;
+    line-height: 1.6;
+}
+
+.header {
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+
+    .buttonStyle {
+    display: flex;
+    align-items: center;
+
+    margin-left: 330px;
+    margin-top: 15px;
+    padding-left: 65px;
+    border: rgb(53, 132, 102);
+    border-radius: 10px;
+    background-color: rgb(53, 132, 102);
+    color: white;
+    height: 50px;
+    width: 240px;
+    font-weight: bolder;
+}
+
+.iconcart {
+    position: relative;
+    margin-right: 10px;
+}
+
+.price {
+    padding-left: 330px;
+}
+
+.pricenew {
+    font-family: Fraunces,sans-serif;
+    color: rgb(53, 132, 102);
+    font-size: 35px;
+}
+
+.priceold {
+    font-family: Montserrat, sans-serif;
+    color: gray;
+    text-decoration: line-through;
+    padding-left: 15px;
+}
